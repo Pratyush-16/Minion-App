@@ -22,7 +22,7 @@ function clickHandler() {
     //outputDiv.innerText= "hbjbjr " + txtInput.value;
     var inputText = txtInput.value; //taking input
 
-    //calling server for processing
+    //calling server for processing 
     fetch(getTranslationURL(inputText))
     .then(response => response.json())
     .then(json => {
