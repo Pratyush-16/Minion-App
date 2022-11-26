@@ -2,9 +2,6 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#text-input");
 var outputDiv = document.querySelector("#output");
 
-//console.log(outputDiv)
-//outputDiv.innerText = "praty";
- //var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
     var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
  function getTranslationURL(text){
@@ -19,7 +16,7 @@ var outputDiv = document.querySelector("#output");
 
 function clickHandler() {
     
-    //outputDiv.innerText= "hbjbjr " + txtInput.value;
+    
     var inputText = txtInput.value; //taking input
 
     //calling server for processing 
